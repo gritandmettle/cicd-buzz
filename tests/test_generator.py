@@ -1,9 +1,10 @@
 import unittest
 import sys
 
-sys.path.append('/home/msmith/Development/cicd-buzz/buzz')
-
 #from buzz import generator
+
+sys.path.append('/home/msmith/Development/cicd-buzz/buzz')
+sys.path.append('/home/travis/build/gritandmettle/cicd-buzz')
 import generator
 
 def test_sample_single_word():
