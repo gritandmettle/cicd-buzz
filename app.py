@@ -3,10 +3,11 @@ import signal
 from flask import Flask
 import sys
 
-sys.path.append('/home/msmith/Development/cicd-buzz/buzz')
-sys.path.append('/home/travis/build/gritandmettle/cicd-buzz/buzz')
-import generator
-#from buzz import generator
+#sys.path.append('/home/msmith/Development/cicd-buzz/buzz')
+#sys.path.append('/home/travis/build/gritandmettle/cicd-buzz/buzz')
+#import generator
+
+from buzz import generator
 
 app = Flask(__name__)
 
